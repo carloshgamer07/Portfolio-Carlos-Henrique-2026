@@ -5,7 +5,7 @@
 }
 
 html, body {
-    font-family: "Italiana", sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     height: 100%;
     scroll-behavior: smooth;
     margin: 0;
@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Inter', sans-serif;
 }
 
 /* HEADER */
