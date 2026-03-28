@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lula</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+      #imgLula2
+      {
+        width: 50vw;
+        height: auto;
+        margin-left: 4%;
+        border-radius: 2em;
+      }
+
+      #imgLula3
+      {
+        width: 50vw;
+        height: auto;
+        margin-left: 4%;
+        margin-top: 5%;
+        border-radius: 2em;
+      }
+    </style>
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Lula - PT</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Lula/Lula1.jpg" class="primeiraImg" alt="Lula 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/BR/280001607829" target="_blank">
+              <p>Lula no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Lula/Lula2.jpg" class="segundaImg" alt="Lula 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www1.folha.uol.com.br/poder/2022/09/discurso-de-lula-sobre-corrupcao-cambaleia-apos-se-ajustar-a-cada-momento-politico.shtml" target="_blank">
+              <p>Discurso de Lula sobre corrupção cambaleia após se ajustar a cada momento político</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Lula/Lula3.jpeg" class="segundaImg" alt="Lula 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://g1.globo.com/sp/sao-paulo/eleicoes/2022/noticia/2022/08/20/lula-participa-de-ato-de-campanha-no-centro-de-sao-paulo.ghtml" target="_blank">
+              <p>'Igreja não é palanque político', diz Lula, em ato de capanha em SP</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Lula/Lula4.jpeg" class="segundaImg" alt="Lula 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://g1.globo.com/politica/blog/gerson-camarotti/post/2022/09/02/campanha-de-lula-ja-trabalha-com-cenario-de-segundo-turno-e-muda-discurso-sobre-voto-util.ghtml" target="_blank">
+              <p>Campanha de Lula já trabalha com cenário de segundo turno e muda discurso sobre 'voto útil'</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Lula/Lula5.jpeg" class="segundaImg" alt="Lula 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.em.com.br/app/noticia/politica/2022/08/18/interna_politica,1387558/lula-em-bh-veja-o-discurso-na-integra.shtml" target="_blank">
+              <p>
+                Lula em BH: veja o discurso na íntegra
+              </p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+        <p>
+          Luiz Inácio Lula da Silva nasceu em 27 de outubro de 1945 na cidade de Garanhuns, interior de Pernambuco. Casado com Marisa Letícia, desde 1974, tem cinco filhos. Lula, por sua vez, é o sétimo dos oito filhos de Aristides Inácio da Silva e Eurídice Ferreira de Mello. Em dezembro de 1952, a família de Lula migrou para o litoral paulista, viajando 13 dias num caminhão "pau de arara". Foi morar em Vicente de Carvalho, bairro pobre do Guarujá.
+        </p>
+
+        <p>
+          O Brasil atravessava, então, um processo de abertura política lenta e gradual comandada pelos militares ainda no poder. Em 10 de fevereiro de 1980, Lula fundou o PT, juntamente com outros sindicalistas, intelectuais, políticos e representantes de movimentos sociais, como lideranças rurais e religiosas. Em 1980, nova greve dos metalúrgicos provocou a intervenção do Governo Federal no sindicato e a prisão de Lula e outros dirigentes sindicais, com base na Lei de Segurança Nacional. Foram 31 dias de prisão.
+          
+
+        </p>
+
+        <p>
+          Em 1982 o PT já estava implantado em quase todo o território nacional. Lula liderou a organização do partido e disputou naquele ano o Governo de São Paulo. Em agosto de 83, participou da fundação da CUT – Central Única dos Trabalhadores. Em 84 participou, como uma das principais lideranças, da campanha das "diretas-já" para a Presidência da República. Em 1986, foi eleito o deputado federal mais votado do país, para a Assembléia Constituinte.
+        </p>
+
+        <p>
+          Em 27 de outubro de 2002, aos 57 anos de idade, com quase 53 milhões de votos, Luiz Inácio Lula da Silva é eleito Presidente da República Federativa do Brasil.
+
+          O primeiro mandato do presidente Lula colocou o Brasil em ordem e preparou o país para o crescimento econômico, com importantes avanços sociais e significativa melhoria na distribuição de renda, sobretudo, graças à política de valorização do salário mínimo e a programas como o Bolsa Família.
+        </p>
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+        <p>
+          Foco prioritário de seu governo vai ser restabelecer um ambiente de estabilidade política, econômica e institucional que proporcione confiança e segurança aos investimentos que interessam ao desenvolvimento do país.
+          Tentando sempre explorar de maneira virtuosa as potencialidades da economia brasileira e suas principais frentes de expansão: o mercado interno com potencial de produção e consumo em massa, as capacidades estatais com potencial de gasto social e investimento público, e as infraestruturas econômicas, urbanas e sociais.
+        </p>
+
+        <p>
+          Afirma recolocar os pobres e os trabalhadores no orçamento, e para isso é necessário revogar o teto de gastos e rever o atual regime fiscal brasileiro. Assim propondo uma reforma tributária solidária, justa e sustentável, que simplifique tributos e que os pobres paguem menos e os ricos paguem mais.
+         
+
+        </p> 
+        <p>
+          E que para isso se realizar vai ser necessário um combate contra a sonegação de impostos, construir um novo regime fiscal, que disponha de credibilidade, previsibilidade e sustentabilidade, promover a renegociação das dívidas das famílias e das pequenas e médias empresas por meio dos bancos públicos e incentivos aos bancos privados
+          para oferecer condições adequadas de negociação com os devedores e também instituir medidas efetivas de desburocratização.
+          Assim visando coordenar a política econômica para combater a inflação e enfrentar a carestia de diversos produtos cotidianos. Além de reduzir a volatilidade da moeda brasileira por meio da política cambial.
+        </p>
+
+        <p>
+          Possui uma forte política nacional de incentivo de desenvolvimento econômico no meio rural já que produção agrícola e a pecuária é decisiva para a segurança alimentar e para a economia brasileira. 
+        </p>
+
+        <p>
+          E para que isso ocorra com êxito, Lula propõe o incentivo a retomada dos estoques reguladores, a ampliação das políticas de financiamento e de apoio à produção de alimentos aos pequenos agricultores, propondo a modernização da estrutura produtiva por meio de elevar a taxa de investimentos públicos e privados e reduzir o custo do crédito a fim de avançar com uma reindustrialização nacional, procurando fortalecer, ampliar e agregar valor à produção e visando até mesmo o fortalecimento da Embrapa.
+        </p>
+
+        <p>
+          Já o outro ponto importante que fica explicita na visão governamental do candidato, é a forte oposição à privatização de grandes nomes como o da Petrobras e da Pré-Sal Petróleo S.A. (PPSA), que oferece segurança energética, a autossuficiência nacional em petróleo e derivados, a garantia do abastecimento de combustíveis no país. Ou até empresas como os Correios, que possui a importante função social, logística e capilaridade em todo o território nacional.
+        </p>
+        </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o PT</h2>
+      <div class="partido">
+        <p>
+          O Partido dos Trabalhadores (PT) é um partido político brasileiro de centro-esquerda à esquerda. Fundado em 1980, integra um dos maiores e mais importantes movimentos de esquerda da América Latina. Em dezembro de 2021, o partido contava com 1.606.892 filiados, sendo o segundo maior partido político do Brasil, atrás apenas do Movimento Democrático Brasileiro (MDB).
+        </p>
+
+        <p>
+          Os símbolos do PT são a bandeira vermelha com uma estrela branca ao centro (exceto no Rio Grande do Sul, onde a estrela na bandeira é amarela, a estrela vermelha de cinco pontas, com a sigla PT inscrita ao centro, e o hino do partido. Seus filiados e simpatizantes são informalmente denominados "petistas". 
+        </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

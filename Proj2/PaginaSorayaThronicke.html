@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soraya Thronicke</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      .primeiraImgSoraya{
+        margin-left: 55pt;
+        width: 55em;
+        height: 43.9em;
+      }
+      
+
+      #imgLula3
+      {
+        width: 50vw;
+        height: auto;
+        margin-left: 4%;
+        margin-top: 5%;
+        border-radius: 2em;
+      }
+    </style>
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Soraya Thronicke - UNIÃO</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Soraya Thromicke/Soraya1.jpg" class="primeiraImgSoraya" alt="Soraya 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://g1.globo.com/jornal-nacional/noticia/2022/08/31/jornal-nacional-entrevista-soraya-thronicke-uniao-brasil.ghtml" target="_blank">
+              <p>Soraya Thronicke em entrevista no Jornal Nacional</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Soraya Thromicke/Soraya2.webp" class="segundaImg" alt="Soraya 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.em.com.br/app/noticia/politica/2022/08/28/interna_politica,1389597/debate-na-band-quem-e-soraya-thronicke-candidata-pelo-uniao-brasil.shtml" target="_blank">
+              <p>Imagem de apresentação de Soraya Thronicke no debate presidencial 2022 na BAND </p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Soraya Thromicke/Soraya3.webp" class="segundaImg" alt="Soraya 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://veja.abril.com.br/coluna/jose-casado/soraya-thronicke-jamais-me-curvarei-a-voces-traidores-da-patria/" target="_blank">
+              <p>Soraya Thronicke no senado</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Soraya Thromicke/Soraya4.jpg" class="segundaImg" alt="Soraya 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.gazetadopovo.com.br/eleicoes/2022/uniao-brasil-anuncia-soraya-thronicke-como-candidata-a-presidencia-da-republica/" target="_blank">
+              <p>Soraya Thronicke anuncia candidatura pelo partido UNIÃO</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Soraya Thromicke/Soraya5.png" class="segundaImg" alt="Soraya 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://uniaobrasil.org.br/2022/08/15/plano-de-governo-de-soraya-thronicke-reforma-tributaria-e-prioridade-para-superar-desigualdades-e-retomar-desenvolvimento-economico/" target="_blank">
+              <p>
+                Imagem de divulgação da campanha de Soraya Thronicke
+              </p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+        <p>
+        Soraya Vieira Thronicke nasceu no dia 1 de junho de 1973 em Dourados, localizado no estado de Mato Grosso do Sul. Soraya é uma advogada e política brasileira, filiada à União Brasil (UNIÃO). 
+        Soraya elegeu-se no pleito de 2018 para o cargo de senadora pelo estado do Mato Grosso do Sul.
+        </p>
+
+        <p>
+        Descendente de alemães, Soraya Thronicke nasceu na cidade de Dourados em 1 de junho de 1973 e foi criada em Campo Grande. 
+        A então senadora é proprietária, junto com sua família, de uma rede de motéis no Mato Grosso do Sul. 
+        Entretanto, Soraya ficou conhecida por atuar em movimentos de rua desde 2013 e por ações que moveu contra políticos e empresas.
+        </p>
+
+        <p>
+        A política graduou-se em Direito pela UNAES Faculdade de Campo Grande (2002) e em MBA em Direito Empresarial pela Fundação Getúlio Vargas (2006). 
+        Soraya pós-graduou-se em Direito Tributário e em Direito de Família e Sucessões pela Faculdade de Direito Professor Damásio de Jesus, e atua nesta área na empresa Cabral Gomes e Thronicke Advogados Associados.
+        </p>
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+        <p>
+          As mudanças estruturais que a pandemia gerou, obrigaram micros e pequenas empresas, que atuavam
+          principalmente nos setores do comércio varejista, turismo, academias, eventos culturais
+          e diversos e outros micros setores, a se reinventarem. Foram obrigados a se ajustarem
+          às mudanças impostas pela pandemia e pelos lockdowns, o que gerou desemprego e
+          incapacidade de sobrevivência, sob as rigorosas regras impostas pela política sanitária.
+          A pandemia produziu severos impactos na organização do trabalho e evidentemente
+          novas demandas de capacitação profissional e de regulação da economia surgiram. E
+          de acordo com a mesmo momento atual é crítico e exige esforços conjugados para não
+          permitir que o distanciamento social e econômico, entre empreendedores e sociedade,
+          aumente.
+        </p> 
+        <p>
+          E esse é um desafio que exige, mudanças no sistema tributário e na otimização dos
+          gastos públicos. A população se ressente muito de ter que pagar impostos caros e não
+          ver sua aplicação objetiva, nem resultados concretos. Quando se avalia a qualidade dos
+          serviços públicos variados, a insatisfação é crescente, antiga e tende a crescer.
+        </p>
+
+        <p>
+          Algumas das ações citadas pela candidata para tentar retomar a economia brasileira são:
+        </p>
+
+        <p>
+          - Propor ao Congresso a reforma do Sistema Tributário Federal e implantar o Imposto
+          Único Federal – IUF.
+        </p>
+        <p>
+          - Simplificar de forma radical o Sistema Tributário.
+        </p>
+        <p>
+          - Universalizar o combate à evasão fiscal.
+        </p>
+        <p>
+          - Respeitar o princípio Federativo, ou seja, a manutenção da autonomeados Estados,
+          municípios e o Distrito Federal.
+        </p>
+        <p>
+          - Fazer um processo de desburocratização, que é a redução da papelada, de
+          autorizações, de multas, de custos diretos e indiretos de processamento, de obrigações
+          acessórias e de fiscalização.
+        </p>
+        <p>
+          - Modernização, assim se adequando ao mundo digital.
+        </p>
+        <p>
+          - Conferição da segurança tributária que são a redução do contencioso e garantia de que
+          não haverá perda de arrecadação.
+        </p>
+        <p>
+          - Inclusão de cláusulas de performance bond nas licitações de obra públicas para
+          garantir que se o contratado não cumprir com suas obrigações, de acordo com os
+          termos e condições do contrato, a seguradora será responsável por contratar terceiros
+          para dar continuidade ao projeto ou efetuar o pagamento de indenização ao segurado,
+          até o valor limite da garantia.
+        </p>
+        <p>
+          - Estruturar e implementar uma Política de Apoio e Desenvolvimento de
+          Microempreendedores Individuais (MEI), Micro e Pequenas Empresas (MPEs),
+          alicerçada em instrumentos e ---- mecanismos de acesso ao crédito orientado, por fim
+          gerando capacitação, tecnologia e financiamento, acesso ao mercado, acesso à
+          inovação e tecnologia, acesso ao apoio e orientação continuada, beneficiando cerca de
+          13 milhões de MEIs e 9 milhões de Micro e Pequenas Empresas, com impacto direto
+          em 84 milhões de pessoas que dependem social economicamente dos ganhos auferidos
+          por esses pequenos negócios.
+        </p>
+        <p>
+          - Implantar e desburocratizar o acesso à linhas de crédito para incentivar o pequeno
+          empreendimento.
+        </p>
+        <p>
+          - Propor interrupção de pagamento de impostos para pequenas empresas que não
+          estiverem em condições de pagar, com reequacionamento dos débitos.
+        </p>
+        <p>
+          - Melhorar a transparência na prestação de contas dos tributos.
+        </p>
+        <p>
+          - Gerar empregos e renda apoiando as atividades econômicas com uso intensivo de mão
+          de obra.
+        </p>
+        <p>
+          - Estimular o crescimento econômico por meio do investimento e aumento da
+          produtividade.
+        </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o UNIÃO</h2>
+      <div class="partido">
+        <p>
+        União Brasil (UNIÃO) é um partido político brasileiro de centro-direita à direita que surgiu da fusão entre o Democratas (DEM) e o Partido Social Liberal (PSL), aprovada por ambas as agremiações em 6 de outubro de 2021. 
+        Em fevereiro de 2022, o Tribunal Superior Eleitoral (TSE) aprovou a fusão e conferiu o registro ao novo partido político, que à época contava com o maior número de membros na Câmara dos Deputados. 
+        Em junho de 2022, o partido possuía 1.083.183 filiados, sendo o sexto maior do país.
+        </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

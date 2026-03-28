@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Jefferson</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Roberto Jefferson - PTB</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Roberto Jefferson/RobertoJefferson1.jpeg" class="primeiraImg" alt="Roberto Jefferson 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/BR/280001655452" target="_blank">
+              <p>Roberto Jefferson no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Roberto Jefferson/RobertoJefferson2.jpeg" class="segundaImg" alt="Roberto Jefferson 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-08/ptb-oficializa-candidatura-de-roberto-jefferson-presidencia" target="_blank">
+              <p>PTB oficializa a candidatura de Roberto Jefferson à Presidência</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Roberto Jefferson/RobertoJefferson3.jpeg" class="segundaImg" alt="Roberto Jefferson 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://veja.abril.com.br/coluna/radar/da-vinganca-ao-apoio-a-mudanca-de-roberto-jefferson/" target="_blank">
+              <p>Da vingança ao apoio, a mudança de Roberto Jefferson</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Roberto Jefferson/RobertoJefferson4.jpeg" class="segundaImg" alt="Roberto Jefferson 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://g1.globo.com/politica/noticia/2022/06/24/stf-conclui-julgamento-e-por-9-votos-a-2-converte-roberto-jefferson-em-reu-por-calunia-e-homofobia.ghtml" target="_blank">
+              <p>STF conclui julgamento e, por 9 votos a 2, converte Roberto Jefferson em réu por homofobia</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Roberto Jefferson/RobertoJefferson5.jpeg" class="segundaImg" alt="Roberto Jefferson 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.correiobraziliense.com.br/politica/2021/07/4939196-video-roberto-jefferson-faz-ameacas-e-chama-embaixador-chines-de-macaco.html" target="_blank">
+              <p>Roberto Jefferson faz ameaças e chama embaixador chinês de 'macaco'</p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+        <p>
+          Roberto Jefferson é filho e neto de políticos "petebistas". Seus pais são Roberto Francisco e Neusa Dalva Monteiro Francisco. É casado com Ana Lucia Novaes Jefferson Monteiro Francisco, e tem três filhos: Cristiane Brasil, deputada federal pelo PTB do Rio de Janeiro, Fabiana Brasil e Roberto Francisco Neto. Ele terminou os estudos colegiais no Colégio Werneck, de Petrópolis. Em 1975 ingressou na Universidade Estácio de Sá, onde formou-se em Direito em 1979. Ele conquistou notoriedade como advogado de pobres no popular "O Povo na TV", atração exibida na antiga TVS (atual SBT) na década de 1980.
+        </p>
+
+        <p>
+          Foi por meio de Roberto Jefferson que o chamado escândalo do mensalão adquiriu dimensões maiores, após denunciar o escândalo, o que o tornou conhecido nacionalmente.
+
+          É autor do livro "Nervos de aço - Um retrato da política e dos políticos no Brasil", publicado pela Editora Topbooks. Roberto Jefferson foi diagnosticado em julho de 2012 com um câncer de pâncreas em estágio inicial, do tipo papilar mucinoso ductal. O político foi submetido no Hospital Samaritano a uma duodenopancreatectomia, uma cirurgia de grande porte para a retirada de parte do pâncreas e duodeno.
+        </p>
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+        <p>
+          O trabalho é a base do progresso econômico. Nesse sentido, o PTB defende um modelo econômico que viabilize a criação de empregos, o salário real crescente e a justa remuneração de quem gera empregos. 
+        </p>
+
+        <p>
+          Por isso o PTB defende um salário-mínimo digno, que atenda às necessidades do trabalhador e de sua família, e sabe que, para isso, é fundamental uma economia pujante, moderna, que cresça progressivamente.
+          Que o Estado não pode ser inibidor da iniciativa privada. Deve se restringir à atuação onde não exista interesse por parte da iniciativa privada e também entende que pertence ao Estado o dever de inibir e 
+          desestimular a ação nociva dos cartéis, monopólios e oligopólios, assim como estimular a iniciativa privada.
+        </p>
+
+        <p>
+          O reconhecimento da importância do capital estrangeiro para o desenvolvimento
+          nacional. E que para isso, deve haver segurança jurídica na legislação que regulamenta
+          a sua presença estável. 
+        </p>
+
+        <p>
+          O apoio as medidas voltadas para a abertura da economia brasileira, propondo medidas
+          de liberação de importações que traduzam em liberdade de comércio sem permitir a
+          ação nociva de capitais e empresas.
+
+          A melhor utilização das alternativas energéticas existentes, com investimentos em
+          pesquisas, visando fomentar a criação de novas fontes.
+        </p>
+
+        <p>
+          E por fim, Roberto e seu partido entendem que a agropecuária é prioritária em um país
+          como o Brasil, com sua potencialidade e dimensão geográfica. Por isso a agricultura
+          familiar deve ser estimulada e o cooperativismo deve ser considerado como um
+          autêntico elemento de progresso econômico e social.
+        </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o PTB</h2>
+      <div class="partido">
+        <p>
+          O PTB foi fundado na cidade do Rio de Janeiro (no então Distrito Federal) em 15 de maio de 1945, sob a inspiração e fundação de Getúlio Vargas, seu maior líder e no bojo do queremismo, movimento popular cuja consigna era "Queremos Getúlio" e que propunha uma Assembleia Constituinte com Getúlio na Presidência da República. Além de Getúlio, a fundação do PTB foi articulada pelo seu Ministro do Trabalho, Alexandre Marcondes Filho.
+        </p>
+
+        <p>
+          Sua base eleitoral era o operariado urbano, com forte ligação com os sindicatos. Ideologicamente, as raízes do PTB são o castilhismo gaúcho, o positivismo, traços de social-democracia e o pensamento de Alberto Pasqualini, o maior ideólogo do PTB. Entre 1945 e 1964, foi o PTB o partido que mais cresceu, tanto em número de votos, quanto em número de filiados: em 1946, o PTB tinha 22 deputados federais; elevando-se a bancada para 66, em 1958, e em 1962, já tinha 116. Isto refletiu a crescente urbanização e industrialização que o Brasil experimentou naqueles anos. O PTB era, entre os grandes partidos de então, o mais à esquerda, e era constantemente acusado pelos opositores de ter políticas comunistas.
+        </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

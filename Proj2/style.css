@@ -1,0 +1,302 @@
+body
+{
+  display: flex;
+  flex-direction: column;
+  background: rgb(21,102,10) fixed;
+  background: linear-gradient(180deg, rgba(21,102,10,1) 8%, rgba(2,71,65,1) 53%, rgba(68,104,161,1) 100%) fixed;
+  height: 100vh;
+  width: auto;
+}
+
+h2
+{
+  color: #fad02c;
+}
+
+#pgCandidatos
+{
+  border-bottom: solid black 5px;
+}
+
+#titulo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 8vh;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 2vh;
+}
+
+#sideBar
+{
+  overflow-y: hidden;
+}
+
+.sideBarTitulo
+{
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+}
+
+.logoDE
+{
+  width: 200px;
+  height: 200px;
+}
+
+.tituloSite
+{
+  width: 650px;
+  height: 200px;
+}
+
+nav
+{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2540;
+  border-bottom-left-radius: 14vw;
+  border-bottom-right-radius: 14vw;
+}
+
+#menu
+{
+  display:flex;
+  justify-content: center;
+  padding: 4pt;
+  border-radius: 2vw;
+  margin-bottom: -7em;
+}
+
+#menuVisivel 
+{
+  text-align: center;
+}
+
+.btnMenu
+{
+  margin-left: 10%;
+  margin-bottom: 2vh;
+}
+
+#btnHome
+{
+  background-color: #fad02c;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 1vw;
+  padding: 3pt;
+  width: 15vw;
+  margin-bottom: 2vh;
+}
+
+#btnSobre
+{
+  background-color: #14668f;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 1vw;
+  width: 15vw;
+  padding: 5pt;
+}
+
+#btnCandidato
+{
+  background-color: #752A87;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 1vw;
+  width: 15vw;
+  padding: 3pt;
+}
+
+.iTipo1
+{
+  width: 2.5vw;
+  height: auto;
+  border-radius: 1vw;
+}
+
+footer
+{
+  background-color: #1f2540;
+}
+
+main
+{
+  margin-top: 15vh;
+  height: 1000%; 
+}
+
+.textDE
+{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #1f2540;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #4458af;
+  -webkit-box-shadow: 5px 5px 10px #4458af;
+  -moz-box-shadow: 5px 5px 10px #4458af;
+  text-align: justify;
+}
+
+.divDE
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.imgDE
+{
+  width: 1000px;
+  height: auto;
+  border: solid #4458af;
+  border-radius: 15em;
+}
+
+.imgDE2
+{
+  width: 30em;
+  height: auto;
+  border-radius: 1em;
+}
+
+.spanhome
+{
+  font-weight: bolder;
+}
+
+.paiCarousel
+{
+  display: flex;
+  justify-content: center;
+  border: solid #fad02c;
+  padding-top: 1%;
+  padding-bottom: 20pt;
+  background-color: #1f2540;
+  margin-top: 8%;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#fundoCap{
+  backdrop-filter: brightness(20%);
+}
+
+#fundoCap a:link {
+  color: white;
+}
+
+#fundoCap a:hover {
+  color: white;
+}
+
+#fundoCap a:visited {
+  color: white;
+}
+
+#carouselExampleControls
+{
+  border: solid green 5px;
+  border-radius: 15px;
+  width: 55vw;
+  height: 80vh;
+  background-color: grey;
+  margin-top: 3vh;
+}
+
+.primeiraImg
+{
+  margin-left: 210pt;
+  width: 30em;
+  height: 43.9em;
+}
+
+.segundaImg
+{
+  border-radius: 15px;
+  width: 68em;
+  height: 43.9em;
+}
+
+hr
+{
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: black;
+  margin-bottom: 50px;
+}
+
+.MenuColapsavel
+{
+  margin: 15px;
+  padding: 15px;
+}
+
+#collapseWidthExample
+{
+  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.txtpai
+{
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(49, 58, 180);
+  margin-top: 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: solid;
+}
+
+.Biografia
+{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.ProjetoDE
+{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.partido
+{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}

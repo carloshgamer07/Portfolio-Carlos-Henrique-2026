@@ -1,0 +1,77 @@
+    table, th, td {
+	  border: 2px solid black;
+	  padding:5px;
+	 } 
+	  
+   .miniatura{
+      width:auto; 
+	  height:350px;
+	 }
+     
+   .celula-miniatura{
+      text-align:center;
+     }	 
+	 
+    #teste{
+      color:red;
+     }
+	 
+    #nrt{
+      background-color:#2F4F4F;
+	  padding:50px 0;
+	  color:#FFD700;
+	  text-align:center;
+	  font-size:30px;
+	  text-shadow:5px 5px Crimson;
+     }
+	 
+	header{
+	  background-color:#2F4F4F;
+	  height:100px;
+	  padding-top:50px;
+	  padding-bottom:50px;
+	  color:#FFD700;
+	  text-shadow:5px 5px Crimson;
+	  text-align:center;
+	 }
+	 
+	.container-flex{
+	  display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+	  min-height:50px;
+      background-color:#2F4F4F;    	  
+	 } 
+	 
+	figure{
+	  width:20%;
+	  display:inline-block;
+	  border:solid;
+      border-radius:10px;	  
+	 } 
+	 
+	a:link{
+	  color: #FFD700;
+      text-decoration: none;	  
+     } 
+	
+    a:visited{
+	  color: #DC143C;	
+	 }
+	 
+	a:hover{
+	  text-decoration: underline;
+      background-color: #FF4500;      	  
+	 } 
+	 
+	a:active{
+	  background-color: #0000CD;	
+	 }
+
+    body{
+	  background-color:#F0F8FF;
+	  font-size: 20px;
+      font-family: 'Bebas Neue', cursive; 	  
+	 }	 
+	 
+	 

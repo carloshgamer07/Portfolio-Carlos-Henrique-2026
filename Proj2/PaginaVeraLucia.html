@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vera Lucia</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      .primeiraImgVera{
+        margin-left: 117pt;
+        width: 45em;
+        height: 43.9em;
+      }
+
+    </style>
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Vera Lúcia - PSTU</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Vera Lucia/VeraLucia1.jpeg" class="primeiraImgVera" alt="Vera Lucia 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://g1.globo.com/politica/eleicoes/noticia/2022/08/07/programa-de-governo-presidenciavel-vera-pstu.ghtml" target="_blank">
+              <p>Vera: Plano de Governo</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Vera Lucia/VeraLucia2.jpg" class="segundaImg" alt="Vera Lucia 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://exame.com/brasil/vera-lucia-do-pstu-inicia-campanha-a-presidencia-em-sao-paulo/" target="_blank">
+              <p>Vera Lúcia, do PSTU, inicia campanha à Presidência em São Paulo</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Vera Lucia/VeraLucia3.jpg" class="segundaImg" alt="Vera Lucia 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://veja.abril.com.br/coluna/jose-casado/vera-lucia-do-pstu-promete-estatizacao-total-e-armas-a-valor-popular/" target="_blank">
+              <p>Vera Lúcia, do PSTU, promete estatização total e armas “a valor popular”</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Vera Lucia/VeraLucia4.jpg" class="segundaImg" alt="Vera Lucia 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://diariosm.com.br/vera-lucia-candidata-do-pstu-a-presidencia-visita-santa-maria/" target="_blank">
+              <p>Vera Lucia, candidata do PSTU à presidência, visita Santa Maria</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Vera Lucia/VeraLucia5.jpg" class="segundaImg" alt="Vera Lucia 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.seesp.org.br/site/index.php/comunicacao/noticias/item/19636-governar-com-os-trabalhadores-e-para-eles-promete-vera-lucia" target="_blank">
+              <p>Governar com os trabalhadores e para eles, promete Vera Lúcia</p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+            <p>Nascida em uma família pobre, em Pernambuco, Vera graduou-se em ciências sociais pela Universidade Federal de Sergipe. 
+            Inicialmente filiada ao Partido dos Trabalhadores (PT), deixou o partido em 1992, quando membros da Convergência Socialista, 
+            ala do partido que defendia o impeachment de Fernando Collor, foram expulsos. Vera, então, ajudou a fundar o PSTU. Vera se filiou ao novo partido em 1994.
+            </p>
+            <p>
+            Vera Lúcia Pereira da Silva Salgado (Inajá, 12 de setembro de 1967) é uma política brasileira, filiada ao Partido Socialista dos Trabalhadores Unificado (PSTU).
+            Foi candidata à presidência da República na eleição presidencial de 2018, obtendo 55.762 votos, ou 0,05% dos votos válidos.
+            Foi também uma das fundadoras do PSTU, e é a presidente do partido em Sergipe.
+            </p>   
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+            <p>
+                Organizado em 24 pontos, o programa aponta que "a precarização do trabalho é uma expropriação dos direitos básicos dos trabalhadores como trabalho regular, 
+                férias, décimo terceiro, aposentadoria". Por isso, defende que "para empregar a todos, é necessário um grande plano de obras públicas para construir casas populares 
+                (e assim suprir o grande déficit habitacional), saneamento básico, hospitais, escolas, creches, espaços culturais, estradas e metrôs".
+            </p>
+            <p>A proposta do PSTU é "mudar radicalmente a estrutura de impostos do país. Quem paga mais impostos no Brasil, relativamente ao que ganha, são os mais pobres". O programa informa que a "isenção de 
+                impostos para as grandes empresas é maior que os investimentos do Governo Federal em saúde e educação somados".
+            </p>
+            <p>
+                Com isso, defende a isenção do pagamento de imposto de renda para quem ganha até 10 salários mínimos e propõe o fim das isenções para as grandes empresas.
+            </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o PSTU</h2>
+      <div class="partido">
+            <p>O Partido Socialista dos Trabalhadores Unificado (PSTU) é um partido político de extrema-esquerda do Brasil fundado em 1994 e registrado definitivamente em 1995.
+            Em julho de 2022 possuía 15.587 filiados. O PSTU é uma organização socialista, que reivindica o marxismo revolucionário, baseando-se nas teorias e práticas de Leon Trótski e de Nahuel Moreno.
+            O PSTU também é a seção no Brasil da Liga Internacional dos Trabalhadores - Quarta Internacional (LIT-QI), sendo a maior seção dessa organização, que em outros países se articula como partido legalizado ou não,
+            ou como corrente interna de partidos anticapitalistas amplos. Assim como o Partido Comunista Brasileiro (PCB), o Partido da Causa Operária (PCO) a Unidade Popular (UP) e algumas tendências do Partido Socialismo e
+            Liberdade (PSOL), o PSTU faz oposição de esquerda aos governos municipais, estaduais (inclusive aqueles governados pelo Partido dos Trabalhadores) e federal.
+            </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

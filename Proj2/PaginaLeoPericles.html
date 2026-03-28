@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léo Péricles</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Léo Péricles - UP</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Pericles/Pericles1.jpg" class="primeiraImg" alt="Léo Péricles 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/BR/280001602702" target="_blank">
+              <p>Léo Péricles no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Pericles/Pericles2.jpeg" class="segundaImg" alt="Léo Péricles 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://jornalistaslivres.org/reproducao-do-racismo-leo-pericles-denuncia-o-debate-da-band/" target="_blank">
+              <p>Léo Péricles, candidato à presidência, sobre o debate: “Reprodução do racismo”</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Pericles/Pericles3.jpg" class="segundaImg" alt="Léo Péricles 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.otempo.com.br/eleicoes/leo-pericles-diz-que-bolsonaro-se-esquivou-de-falar-de-problemas-reais-1.2720881" target="_blank">
+              <p>Léo Péricles diz que Bolsonaro se esquivou de falar de problemas reais</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Pericles/Pericles4.jpeg" class="segundaImg" alt="Léo Péricles 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2022-08/com-panfletagem-em-fabrica-leo-pericles-inicia-campanha-eleitoral" target="_blank">
+              <p>Com panfletagem em fábrica, Léo Péricles inicia campanha eleitoral</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Pericles/Pericles5.jpeg" class="segundaImg" alt="Léo Péricles 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://averdade.org.br/2021/12/afinal-quem-e-leo-pericles-na-fila-do-pao/" target="_blank">
+              <p>
+                Afinal, quem é Léo Péricles na fila do pão?
+              </p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+        <p>
+          Filho de Lourdes Rosária e Francisco Vieira, Leonardo nasceu em Belo Horizonte, mas cresceu na periferia de Contagem. Cursou técnico em eletrônica no Colégio Padre Eustáquio, onde era bolsista, durante o período do ensino médio. Em 2005 ingressou no curso de Biblioteconomia na Universidade Federal de Minas Gerais (UFMG), mas não concluiu.
+        </p>
+
+        <p>
+          Durante o ensino médio fundou a Associação Metropolitana dos Estudantes Secundaristas de Belo Horizonte (AMES-BH), sendo seu primeiro presidente, e também foi diretor mineiro da União Brasileira dos Estudantes Secundaristas (UBES).
+          Em 2008 foi candidato a vereador pelo Partido Democrático Trabalhista (PDT) em Belo Horizonte, mas não conseguiu ser eleito.
+          Enquanto cursava Biblioteconomia, se tornou presidente do Diretório Acadêmico do curso e também diretor da União Nacional dos Estudantes (UNE) entre 2009 e 2010.
+        </p>
+        <p>
+
+       
+          Desde 2011 faz parte do Movimento de Luta nos Bairros, Vilas e Favelas (MLB). Atualmente, é um dos líderes nacionais do MLB.
+
+          Em 2012 passou a morar na Ocupação Eliana Silva, na região do Barreiro,onde conheceu Poliana Souza, com quem se casou e tem dois filhos. A família reside na mesma ocupação até hoje em dia.
+        </p>
+          A partir de 2014 passou a atuar como Presidente Nacional da Unidade Popular (UP), que obteve o registro partidário em dezembro de 2019, com cerca de 1,2 milhão de assinaturas.
+
+          Nas eleições municipais de 2020, a UP cogitou lançar Leonardo a prefeito de Belo Horizonte, mas optaram por concorrer como vice-prefeito da candidata Áurea Carolina (PSOL), a chapa ficou em 4º lugar na disputa municipal, com 8,33% dos votos (103.115 votos).
+
+          Na convenção entre os dias 12 e 14 de novembro de 2021, foi aprovada, por unanimidade entre os delegados do partido, a candidatura de Léo Péricles à Presidência da República em 2022.
+
+          No dia 24 de julho de 2022, foi escolhido pela UP para disputar a Presidência da República, tendo Samara Martins como candidata à vice-presidente
+        </p>
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+        <p>
+          De maneira ampla, Péricles pretende suspender o pagamento de juros e amortização
+          da dívida pública, revogar o teto de gastos, a reforma trabalhista e a reforma da
+          previdência, nacionalizar o sistema bancário, anular acordos de dívidas do país com
+          investidores estrangeiros e reestatizar empresas, promover uma reforma tributária
+          baseada na taxação de grandes fortunas e aposta em obras de infraestrutura para gerar
+          empregos, garantia da estabilidade de preços e do poder de compra da população,
+          reestatização de refinarias de petróleo, controle “estatal e popular” do Banco Central,
+          criação de uma política estatal de crédito, entre outros ações que ele pretende realizar
+        </p>
+
+        <p>
+          E isso ocorre, pois o país passou por um intenso processo de desindustrialização e
+          reprimarização da economia, fruto do processo de entrega do patrimônio das estatais e
+          privatização das reservas petrolíferas e parques petroquímicos. E os setores
+          extrativistas na mineração ou agronegócio para exportação, passaram a vigorar como
+          ramos de maior impacto na produção nacional frente a indústria de transformação.
+        </p>
+
+        <p>
+          Tudo isso com o patamar de total domínio do Capital Financeiro sobre a economia e
+          Estados Brasileiros. 
+        </p>
+
+        <p>
+          Também é importante a criação de frentes emergenciais de trabalho, nos bairros pobres
+          e interiores de todo o país, com obras de infraestrutura em saneamento, manutenção e
+          construção de postos de saúde, moradias populares para geração de milhões de
+          empregos. Juntamente disso, precisamos da garantia de auxílio emergencial de um
+          salário mínimo, de forma permanente até completa oferta de emprego para a população.
+        </p>
+
+        <p>
+          Assim, pondo um fim da espoliação imperialista sobre a economia nacional; impedindo
+          então o estancamento da sangria de nossos recursos para o exterior, pondo fim às
+          remessas de lucros, dividendos, pagamento de royalties e pagamentos da dívida
+          externa; a anulação dos acordos e dívidas do Estado com os capitalistas estrangeiros,
+          que foram contraídos contra a soberania e os interesses dos trabalhadores, resultando
+          na garantia de total independência econômica do Brasil frente aos países imperialistas,
+          em particular ao imperialismo norte-americano, transferência do comércio exterior para
+          os órgãos do Estado.
+        </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o UP</h2>
+      <div class="partido">
+        <p>
+          Unidade Popular (UP), ou ainda Unidade Popular pelo Socialismo, é um partido político brasileiro de extrema-esquerda fundado em 16 de junho de 2016 e registrado oficialmente em 10 de dezembro de 2019. Em julho de 2022 possuía 3.224 filiados.
+        </p>
+
+        <p>
+          O partido é ligado a movimentos sociais que atuam em defesa do poder popular e do socialismo, e defende a nacionalização do sistema bancário, o controle social de todos os monopólios e consórcios capitalistas e dos meios de produção nos setores estratégicos da economia, bem como uma reforma agrária e urbana popular. O nome da organização é inspirado na coalizão partidária de esquerda formada para a eleição presidencial chilena de 1970, sob a liderança de Salvador Allende.
+        </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

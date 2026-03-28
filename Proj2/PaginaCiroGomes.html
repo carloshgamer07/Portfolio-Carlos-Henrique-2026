@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciro Gomes</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main> 
+    <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Ciro Gomes - PDT</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Ciro Gomes/CiroGomes1.jpg" class="primeiraImg" alt="Ciro Gomes 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/BR/280000605589" target="_blank">
+              <p>Ciro Gomes no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Ciro Gomes/CiroGomes2.jpg" class="segundaImg" alt="Ciro Gomes 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://noticias.uol.com.br/eleicoes/2022/09/01/tse-aprova-registro-de-candidatura-de-ciro-gomes-para-presidencia.htm" target="_blank">
+              <p>TSE aprova registro de candidatura de Ciro Gomes para Presidência</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Ciro Gomes/CiroGomes3.jpeg" class="segundaImg" alt="Ciro Gomes 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://br.noticias.yahoo.com/eunicio-oliveira-ciro-gomes-despejo-apartamento-165200952.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHNmEJnq-B5jA2MRKzT8WlMPXgOp64-j5wUR4lR-D9mhOTY5ctkgAnAySJRGghw0XV1bbxveulry3sxuvQvaVHblbt05GsBzymrDiKyDTaDmOVVjP9yaI_P697z8itO5nC7th1roTZnrZIMJRPDK0xEkJOQG1x4fpPGCdI3keswD" target="_blank">
+              <p>Eunício faz críticas a Ciro Gomes e diz que vai despejá-lo de apartamento</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Ciro Gomes/CiroGomes4.jpeg" class="segundaImg" alt="Ciro Gomes 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.em.com.br/app/noticia/politica/2022/08/15/interna_politica,1386828/ciro-gomes-sobre-bolsonaro-representa-antessala-do-fascismo.shtml" target="_blank">
+              <p>Ciro Gomes sobre Bolsonaro: 'Representa antessala do fascismo'</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Ciro Gomes/CiroGomes5.jpg" class="segundaImg" alt="Ciro Gomes 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.bbc.com/portuguese/brasil-49681058" target="_blank">
+              <p>'Na defesa da democracia, vamos tocar fogo na rua', diz Ciro Gomes sobre tuíte de Carlos Bolsonaro</p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+    <div class="paiBio">
+      <h2 class="txtpai">Biografia</h2>
+      <div class="Biografia">
+            <p>Ciro Ferreira Gomes nasceu em Pindamonhangaba, São Paulo, no dia 6 de novembro de 1957. Filho do cearense e defensor público José Euclides Ferreira Gomes e da professora paulista Maria 
+              José Santos. Com 4 anos de idade mudou-se com a família para a cidade de Sobral no Ceará.
+            </p>
+            <p>
+              Ciro Gomes (1957) é um político, advogado e professor universitário brasileiro. Foi Deputado Estadual, Prefeito de Fortaleza, Governador do Ceará, Ministro da Fazenda, Ministro da Integração Nacional
+              e Deputado Federal. Concorreu à presidência do Brasil em 1998, 2002 e 2018. É pré-candidato à Presidência do Brasil em 2022.
+            </p>   
+      </div>
+    </div>         
+
+    <div class="paiPjrt">
+      <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+      <div class="ProjetoDE">
+            <p>Educação é o melhor método, inclusive economicamente, de se desenvolver. Quando se fala em desenvolvimento econômico, reindustrialização, agricultura e infraestrutura, 
+              são necessário esforços públicos e privados maciços para proteger o conhecimento acumulado, evitar a deterioração da infraestrutura, a migração de cientistas qualificados para outros países, a 
+              separação de grupos de excelência em pesquisa, juntamente de políticas de ciência, tecnologia e inovação, combinadas com políticas industriais e educacionais, são a base das estratégias nacionais
+              de desenvolvimento econômico, assim gerando um mundo de negócios para gerar conhecimento que aumente a competitividade das empresas.
+            </p>
+            <p>
+              Ciro afirma que devemos caminhar para a Indústria 4.0. Assim, seremos competitivos no exterior e produziremos internamente alguns dos produtos que atualmente importamos e que, na verdade, temos 
+              capacidade de produzir internamente. Então, para chegarmos na indústria 4.0 teremos que desenvolver novas tecnologias para aumentar a produtividade em diversos setores em benefício das pessoas,
+              como a indústria alimentícia e serviços de navegação.
+            </p>
+            <p>
+              Para isso ocorrer, são necessárias algumas coisas como: Evitar a sobreposição de iniciativas e ações adversas; Maximizar recursos e coordenar os setores público e privado; Incentivar
+              ações que contribuam para o desenvolvimento dos referidos complexos industriais de alta tecnologia e serviços intensivos em conhecimento; Incentivar o desenvolvimento de incubadoras e startups, 
+              bem como seus vínculos com organizações que possam utilizar suas soluções, e aprimorar o processo de concessão de patentes; A realização de grandes obras deve ser acompanhada de um planejamento 
+              de arranjos produtivos locais em seu entorno; Estímulo ao desenvolvimento de ecossistemas de inovação sustentável, para que possa ocorrer um estimulo a pequenas e médias empresas que gerem 
+              negócios inovadores na área de sustentabilidade, como o desenvolvimento de produtos sustentáveis na produção de outros bens, e por consequência um estímulo nos investimentos e inovações, 
+              através de linhas de crédito especificas, venture capital ou financiamento à pesquisa (incluindo bolsas), que sejam direcionada à sustentabilidade; E estimular o desenvolvimento de setores
+              que possam agregar mais valor à linha de produção, como por exemplo, a indústria de móveis, que pode desenvolver design e utilizar madeira de reflorestamento certificada.
+            </p>
+      </div>
+    </div>
+
+    <div class="paiPartido">
+      <h2 class="txtpai">Sobre o PDT</h2>
+      <div class="partido">
+            <p>O Partido Democrático Trabalhista (PDT) é um partido político brasileiro de centro-esquerda. Foi fundado em 1979, logo após o início do processo de abertura política da ditadura militar,
+              sendo alinhado às ideologias trabalhista, socialista democrática e social-democrata. Seu símbolo é "o punho e a rosa", um tradicional símbolo socialista criado por Didier Motchane inicialmente
+              para o Partido Socialista francês e usado posteriormente por outros partidos e organizações de esquerda, como o PSOE da Espanha, o Partido Trabalhista britânico e a Internacional Socialista. 
+              O código eleitoral do partido é o 12.
+            </p>
+      </div>
+    </div>
+
+  
+
+   </main>
+    <footer class="py-3 my-3">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </body>
+</html>

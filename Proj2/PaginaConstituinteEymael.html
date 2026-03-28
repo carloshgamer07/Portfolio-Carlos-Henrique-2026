@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constituinte Eymael</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   <header>
+          
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" id="pgCandidatos" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main>
+    
+   <div class="paiCarousel"> 
+    <div id="carouselExampleControls" class="carousel slide" id="slides" data-bs-ride="carousel">
+      <h2>Constituinte Eymael - DC</h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Candidatos/Constituinte Eymael/Eymael1.jpg" class="primeiraImg" alt="Eymael 1">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://divulgacandcontas.tse.jus.br/divulga/#/candidato/2022/2040602022/BR/280001677435" target="_blank">
+              <p>Eymael no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Constituinte Eymael/Eymael2.jpg" class="segundaImg" alt="Eymael 2">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://agenciabrasil.ebc.com.br/eleicoes-2020/noticia/2022-08/eymael-registra-candidatura-presidencia-no-tse" target="_blank">
+              <p>Eymael registra candidatura à Presidência no TSE</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Constituinte Eymael/Eymael3.jpg" class="segundaImg" alt="Eymael 3">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://tab.uol.com.br/noticias/redacao/2022/03/31/quem-acredita-sempre-alcanca-eymael-se-lanca-pela-6-vez-a-presidencia.htm" target="_blank">
+              <p>'Velha guarda? Sou vanguarda': Eymael se lança pela 6ª vez à Presidência</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Constituinte Eymael/Eymael4.jpg" class="segundaImg" alt="Eymael 4">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://veja.abril.com.br/coluna/radar/o-novo-nome-de-urna-de-eymael-candidato-ao-planalto-pela-sexta-vez/" target="_blank">
+              <p>O novo nome de urna de Eymael, candidato ao Planalto pela sexta vez</p>
+            </a>  
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/Candidatos/Constituinte Eymael/Eymael5.jpg" class="segundaImg" alt="Eymael 5">
+          <div id="fundoCap" class="carousel-caption d-none d-md-block">
+            <a href="https://www.correiobraziliense.com.br/politica/2022/08/5026475-democracia-crista-oficializa-candidatura-de-eymael-a-presidente.html" target="_blank">
+              <p>Democracia Cristã oficializa candidatura de Eymael a presidente</p>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>  
+
+    <hr>
+
+  <div class="paiBio">
+    <h2 class="txtpai">Biografia</h2>
+    <div class="Biografia">
+          <p>Filho de João Eymael e Lígia Porto Eymael, graduou-se em Filosofia e Direito pela Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS).
+          </p>
+          <p>
+            Eymael filiou-se ao Partido Democrata Cristão (PDC) em 1962, militando na Juventude Democrata Cristã. Mas o partido foi extinto pelo Ato Institucional n° 2, em 27 de outubro de 1965, 
+            durante a ditadura militar brasileira, quando já trabalhava como presidente do Grupo Nacional de Serviços.
+          </p>   
+    </div>
+  </div>         
+
+  <div class="paiPjrt">
+    <h2 class="txtpai">Projeto de Desenvolvimento Econômico</h2>
+    <div class="ProjetoDE">
+          <p>Eymael se considera um protetor dos valores e direitos da família, e irá fazer com que todas elas tenham um lugar para chamar de lar, uma moradia digna de verdade, e juntamente desse 
+            fato, ele também afirma que o sistema tributário brasileiro é injusto e antiquado, e que acaba por esmagar os pequenos, e até alguns médios empreendimentos, e por conta disso, ele busca 
+            corrigir tal injustiça com uma reforma no Sistema Tributário Nacional, assim gerando empregos que alavancam a economia e o desenvolvimento no país.
+          </p>
+          <p>
+            E para cumprir com seus valores expressos em seu plano de governo, Eymael busca diminuir drasticamente o índice de pobreza que há anos vem aumentando, fazendo, por exemplo, algumas famílias
+            morarem em lugares em situações precárias e desumanas, como as favelas.
+          </p>
+          <p>
+            De acordo com ele, o país demanda uma política macroeconômica que seja orientada para atingir o objetivo de diminuir o custo do crédito no país para o setor produtivo. Além disso, 
+            é importante citar que Eymael é um grande apoiador do agronegócio, que é grande fonte da economia brasileira, e devido a isso, ele busca valorizar esse empreendimento, que é responsável 
+            por uma grande parte de exportação do Brasil.
+          </p>
+          <p>
+            E por fim, ele propôs os termos de uma política oficial para auxílio e incentivo à criação de micro, pequenas e até empresas de porte médio, motivando assim também o empreendedorismo da população, e 
+            alterando o mercado de trabalho, juntamente com a economia, assim valorizando o mercado nacional.
+          </p>
+    </div>
+  </div>
+
+  <div class="paiPartido">
+    <h2 class="txtpai">Sobre o Democracia Cristã</h2>
+    <div class="partido">
+          <p>Democracia Cristã (DC) é um partido político brasileiro de centro-direita. Foi fundado em 1995 e registrado definitivamente em 1997 com o nome Partido Social Democrata Cristão (PSDC). Em 
+            agosto de 2017 mudou seu nome para o atual, oficializado pelo TSE em maio de 2018. É presidido pelo empresário José Maria Eymael, que, pelo partido, já foi candidato à presidência do Brasil 
+            em cinco eleições. Em julho de 2022 o partido contava com 177.621 filiados.
+          </p>
+    </div>
+  </div>
+
+  </main>
+    <footer class="py-3 my-4">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </div>  
+  </body>
+</html>

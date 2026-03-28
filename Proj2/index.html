@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="img/Ícones/logoDESemFundo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <header>
+    <nav class="navbar navbar-dark fixed-top">
+      <div id="menu" class="container-fluid">
+        <div>
+          <div id="menuVisivel">
+            <p id="titulo">
+              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+            </p>
+          </div>
+      </div>
+          
+        <div 
+          class="offcanvas offcanvas-start text-bg-dark" 
+          tabindex="-1" 
+          id="offcanvasDarkNavbar" 
+          aria-labelledby="offcanvasDarkNavbarLabel"
+          style="width: 20vw;">
+
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a id="btnHome" href="homePage.html" class="nav-link active" aria-current="page">
+                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                  Página Inicial
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a id="btnSobre" class="nav-link" href="#">
+                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
+                  Página de Desenvolvedores
+                </a>
+              </li>
+
+              <hr>
+
+              <h3 class="sideBarTitulo">Eleições 2022</h3>
+
+              <li class="nav-item dropdown">
+                <a 
+                id="btnCandidato"
+                class="nav-link dropdown-toggle" 
+                href="#" role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                  Cadidatos
+                </a>
+                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
+                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
+                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
+                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
+                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
+                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
+                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
+                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
+                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
+                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
+                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="btnMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </header> 
+  <main class="mainHome">
+    <br>
+    <br>
+    <br>
+
+    <div class="textDE">
+      <h2>O que é Desenvolvimento Econômico?</h2><br>
+      <p>É um assunto discutido pelo Campo da Macroeconomia. Caracterizado pela melhora no bem-estar geral da população, destaca o aumento da qualidade de vida e material e é quantificado por indicadores 
+         econômicos, como o Produto Interno Bruto (PIB) e o Produto Nacional Bruto (PNB). 
+      </p>  
+      <p>No início do século XX diversos economistas entraram em discussão a respeito do conceito de desenvolvimento econômico. Em um primeiro momento, desenvolver a economia era sinônimo de aumentar a 
+         produção e a renda referente à população de uma região. Porém, após alguns anos foram acrescentados fatores como a melhoria da qualidade material e do quadro social geral de um país. Assim, só pode 
+         ser considerado desenvolvimento econômico o progresso conjunto e que alcance todos os campos de uma sociedade.
+      </p>
+      <p>  
+        Por vezes, devido às características em comum, é confundido com o crescimento econômico. No entanto, o desenvolvimento econômico abrange uma área muito além disso, já que é um conceito ainda mais profundo que não pode ser mensurado apenas pelo PIB e pelo PNB, visto que é o caso do crescimento. Assim, é necessário entender que sua ideia está baseada na harmonização entre o crescimento da economia e as necessidades públicas, isto é, só há desenvolvimento quando a melhora da qualidade de vida e material aumenta em função do crescimento econômico.
+        Em síntese, o desenvolvimento econômico pode ser entendido como um fator indispensável à progressão de uma sociedade civil, tornando-o uma prioridade entre as autoridades do governo. É notório o alto nível de rigorosidade demandado por esse assunto, portanto, é de caráter unânime que seja tratado de forma mais que responsável.
+      </p>
+    </div> 
+    
+    <div class="divDE">
+      <img src="img/Representações/DE.webp" class="imgDE" alt="Representação do Desenvolvimento Econômico">
+    </div>
+
+  <hr>
+
+    <div class="textDE">
+      <h2>Métodos de Classificação do Desenvolvimento Econômico de um País</h2><br>
+      <p><span class="spanhome">IDH (Índice de Desenvolvimento Econômico)</span>: No IDH (índice de Desenvolvimento humano), é possível identificar o desenvolvimento humano de uma região, usando as informações sobre escolaridade,
+         expectativa de vida e renda per capta de um número delimitado de pessoas. O valor variante do IDH é de 0 a 1, quanto mais perto, mais um pais é desenvolvido, por exemplo, o Brasil em 2020, 
+         possuía um IDH de 0,765.
+      </p>
+      <p>   
+        <span class="spanhome">Índice De Gini</span>: Com índice Gini é possível medir de que forma a renda pela forma como é distribuída para a população. Quanto maior é o Gini, mais desigual é a distribuição de renda de uma nação.
+         Também em 2020, o índice Gini do Brasil apresentou-se na casa de 53,9.
+        </p>
+    </div>
+
+    <div class="divDE">
+      <img src="img/Representações/DE2.webp" class="imgDE2" alt="Representação do Desenvolvimento Econômico">
+    </div>
+
+  </main>
+    <footer class="py-4 my-3" id="footerFixed">
+      <div class="container">
+      <p class="text-center text-muted">© 2022 Brasil, IFSP</p>
+      </div>
+    </footer>
+  </div>  
+  </body>
+</html>
